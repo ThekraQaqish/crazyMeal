@@ -5,8 +5,8 @@ https://thekraqaqish.github.io/crazyMeal/
 
 ### How many hours did it take you to complete this assignment?
 
-It took me approximately **16 hours** to complete the project.  
-- **12 hours** were spent on styling, including choosing a color palette, fonts, and layout.  
+It took me approximately **20 hours** to complete the project.  
+- **16 hours** were spent on styling, including choosing a color palette, fonts, and layout.  
 - **4 hours** were spent on implementing functionality using JavaScript.
 
 ### Were there any parts of the lab you found challenging?
