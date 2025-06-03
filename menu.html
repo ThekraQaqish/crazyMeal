@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crazy Meal - Menu</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body id="menu-body">
+
+  <header>
+    <h1>Crazy Meal Menu</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <main class="items-container" >
+    <section id="salads">
+      <h2>Salads</h2>
+      <div id="salads-items" class="menu-items"></div>
+    </section>
+
+    <section id="chicken">
+      <h2>Chicken Meals</h2>
+      <div class="menu-items" id="chicken-items"></div>
+    </section>
+
+    <section id="breakfast">
+      <h2>Breakfast</h2>
+      <div class="menu-items" id="breakfast-items"></div>
+    </section>
+
+    <section id="sandwiches">
+      <h2>Sandwiches</h2>
+      <div class="menu-items" id="sandwiches-items"></div>
+    </section>
+
+    <section id="desserts">
+      <h2>Desserts</h2>
+      <div class="menu-items" id="desserts-items"></div>
+    </section>
+    <section id="drinks">
+      <h2>Drinks</h2>
+    <div id="drinks-items" class="menu-items"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <img src="images/logo.png">
+    <p>Thekra Qaqish © <span id="year"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
