@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Crazy Meal - Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body id="index-body">
+  <div class="Container">
+    <div class="half right">
+    
+
+
+    <header>
+      <h1>Crazy Meal</h1>
+      <nav>
+        <a href="menu.html">Menu</a>
+      </nav>
+    </header>
+
+
+    <p id="hero">From Our Kitchen to Your Heart.</p>
+
+
+
+    </div>
+
+    <div class="half left">
+      <!-- المحتوى العادي -->
+      <p>This is the LEFT side — normal.</p>
+
+
+    <main>
+      <section id="order-form-section">
+        <h2 class="index-h2">Add New Order</h2>
+        <form id="order-form">
+          <div class="form-fields">
+            <label for="meal-name">Meal Name:</label>
+            <input type="text" id="meal-name" name="mealName" required />
+            </br>
+            <label for="meal-price">Meal Price:</label>
+            <input type="number" id="meal-price" name="mealPrice" required min="0" step="0.01" />
+            </br>
+            <label for="meal-image">Meal Image URL:</label>
+            <input type="url" id="meal-image" name="mealImage" placeholder="https://example.com/image.jpg" required />
+            </br>
+          </div>
+          <button type="submit">Add Order</button>
+        </form>
+      </section>
+
+      <section id="orders-list-section">
+        <h2 class="index-h2">Orders List</h2>
+        <table id="orders-table" border="1" cellspacing="0" cellpadding="5">
+          <thead>
+            <tr>
+              <th>Meal Name</th>
+              <th>Price</th>
+              <th>Image</th>
+            </tr>
+          </thead>
+          <tbody>
+
+
+
+          </tbody>
+        </table>
+
+        <button id="clear-orders">Clear All Orders</button>
+      </section>
+    </main>
+    </div>
+    </div>
+  <footer>
+    <img src="images/logo.png">
+    <p>Thekra Qaqish © <span id="year"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
